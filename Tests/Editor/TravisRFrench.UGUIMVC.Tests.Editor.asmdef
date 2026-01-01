@@ -1,6 +1,6 @@
 {
-    "name": "TravisRFrench.UnityPackageTemplate.Tests.Editor",
-    "rootNamespace": "TravisRFrench.UnityPackageTemplate.Tests.Editor",
+    "name": "TravisRFrench.UGUI-MVC.Tests.Editor",
+    "rootNamespace": "TravisRFrench.UGUI-MVC",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner"

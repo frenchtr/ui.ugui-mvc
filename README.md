@@ -1,2 +1,2 @@
-# Unity Package Template
-A template for creating Unity packages.
+# UGUI MVC
+An MVC framework for UGUI in Unity.

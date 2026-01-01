@@ -1,8 +1,10 @@
 {
-    "name": "TravisRFrench.UnityPackageTemplate.Runtime",
-    "rootNamespace": "TravisRFrench.UnityPackageTemplate.Runtime",
+    "name": "TravisRFrench.UGUI-MVC.Editor",
+    "rootNamespace": "TravisRFrench.UGUI-MVC",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
