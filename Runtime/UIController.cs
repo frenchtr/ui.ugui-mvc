@@ -16,30 +16,25 @@ namespace TravisRFrench.UI.UGUI.MVC
         public virtual void UpdateView()
         {
         }
-        
-        private void OnModelChanged()
-        {
-            this.UpdateView();
-        }
 
-        public void Activate()
+        void IUIController.Activate()
         {
             this.OnActivate();
         }
 
-        public void Bind()
+        void IUIController.Bind()
         {
             this.Model.Changed += this.OnModelChanged;
             this.OnBind();
         }
 
-        public void Unbind()
+        void IUIController.Unbind()
         {
             this.Model.Changed -= this.OnModelChanged;
             this.OnUnbind();
         }
 
-        public void Update()
+        void IUIController.Update()
         {
             this.OnUpdate();
         }
@@ -58,6 +53,11 @@ namespace TravisRFrench.UI.UGUI.MVC
 
         protected virtual void OnUpdate()
         {
+        }
+        
+        private void OnModelChanged()
+        {
+            this.UpdateView();
         }
     }
 }
