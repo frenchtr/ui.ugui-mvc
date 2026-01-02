@@ -13,5 +13,12 @@
         "MVC"
     ],
     "dependencies": {},
+    "samples": [
+        {
+            "displayName": "Score Example",
+            "description": "Minimal setup and usage examples.",
+            "path": "Samples~/ScoreExample"
+        }
+    ],
     "license": "See <LICENSE.md>"
 }
