@@ -1,7 +1,10 @@
 {
-    "name": "TravisRFrench.UGUI-MVC.Runtime",
-    "rootNamespace": "TravisRFrench.UGUI-MVC",
-    "references": [],
+    "name": "TravisRFrench.UI.UGUI.MVC.Runtime",
+    "rootNamespace": "TravisRFrench.UI.UGUI.MVC",
+    "references": [
+        "GUID:86c1c2ee6a6d7ff4484174ab81c04b85",
+        "GUID:d854be2bc57a0c4458a7986ec7d61851"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
