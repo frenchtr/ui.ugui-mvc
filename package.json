@@ -1,7 +1,7 @@
 {
     "name": "com.travisrfrench.ui.ugui-mvc",
     "displayName": "UGUI-MVC",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "An MVC framework for UGUI in Unity.",
     "author": {
         "name": "Travis R. French"

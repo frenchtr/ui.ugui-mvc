@@ -20,6 +20,10 @@ namespace TravisRFrench.UI.UGUI.MVC
         protected Canvas Canvas { get; private set; }
         [Inject]
         protected CanvasGroup CanvasGroup { get; private set; }
+
+        public bool IsActive => this.gameObject.activeSelf;
+        public bool IsVisible => this.CanvasGroup.alpha > 0;
+        public bool IsInteractable => this.CanvasGroup.interactable;
         
         public void SetActive(bool isActive)
         {
