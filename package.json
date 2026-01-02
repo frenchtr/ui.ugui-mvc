@@ -1,4 +1,17 @@
 {
     "name": "com.travisrfrench.ui.ugui-mvc",
-    "version": "0.1.0"
+    "displayName": "UGUI-MVC",
+    "version": "0.1.0",
+    "description": "An MVC framework for UGUI in Unity.",
+    "author": {
+        "name": "Travis R. French"
+    },
+    "homepage": "https://github.com/frenchtr/ui.ugui-mvc.git",
+    "keywords": [
+        "UI",
+        "UGUI",
+        "MVC"
+    ],
+    "dependencies": {},
+    "license": "See <LICENSE.md>"
 }
